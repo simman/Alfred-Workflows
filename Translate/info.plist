@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>simman00023</string>
+	<key>connections</key>
+	<dict/>
+	<key>createdby</key>
+	<string>SimMan</string>
+	<key>description</key>
+	<string>有道翻译...</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>有道翻译</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>36</integer>
+				<key>keyword</key>
+				<string>ydic</string>
+				<key>runningsubtext</key>
+				<string>Please Wait...</string>
+				<key>script</key>
+				<string>from Translate import get_trans_result
+print get_trans_result("{query}")</string>
+				<key>subtext</key>
+				<string>使用在线词典进行中英互查 Look up word by online dictionary</string>
+				<key>title</key>
+				<string>有道翻译</string>
+				<key>type</key>
+				<integer>3</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>0ABA1BA0-2E80-45BE-9A5D-210B60D2014A</string>
+			<key>version</key>
+			<integer>0</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>有道翻译…</string>
+	<key>uidata</key>
+	<dict>
+		<key>0ABA1BA0-2E80-45BE-9A5D-210B60D2014A</key>
+		<dict>
+			<key>ypos</key>
+			<real>130</real>
+		</dict>
+	</dict>
+	<key>webaddress</key>
+	<string>http://www.simman.cc/</string>
+</dict>
+</plist>
